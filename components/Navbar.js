@@ -7,9 +7,9 @@ export default function Navbar(){
     const{data:session}=useSession() 
 
     return(
-        <nav style ={{padding: 20, borderBottom: "1px solid #FFF9EE"}}>
-            <Link href="/">Dashboard</Link>
-            <Link href="/child-profile">Child Profile</Link>
+        <nav style ={{padding: 20, borderBottom: "1px solid #FFFFFF"}}>
+            <Link href="/">Landing Page</Link>
+            <Link href="/dashboard">Dashboard</Link>
             <Link href="/staff-directory">Staff Directory</Link>
             <Link href="/support-groups">Support Groups</Link>
 

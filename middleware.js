@@ -7,5 +7,6 @@ export const middleware = withAuth({
 });
 
 export const config = {
-    matcher: ["/child-profile"],
+    matcher: ["/child-profile"], // protect access to child profile
+    // must be logging to access
 };

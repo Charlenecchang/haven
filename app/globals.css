@@ -1,1 +1,2 @@
-/* add global styles here */
+/* using tailwind for global styles */
+@import "tailwindcss";

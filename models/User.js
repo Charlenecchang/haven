@@ -6,11 +6,7 @@ const UserSchema = new mongoose.Schema({
         type: String,
         enum: [
             "Licensed Kinship Caregiver",
-            "Unlicensed/Relative Placement",
-            "Traditional Foster Parent",
-            "Therapeutic/Treatment Foster Care",
-            "Respite Caregiver",
-            "Adoptive/Guardianship Parent",
+            "Amara Staff",
         ],
     },
     createdAt: {

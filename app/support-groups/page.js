@@ -6,12 +6,9 @@ export default function SupportGroups() {
 
     return(
         <div style={{padding:20}}>
-            <h1>Support Groups</h1>
-            {session ? (
-                <button>Join Group</button>
-            ): (
-                <p>Please sign in to join support groups.</p>
-            )}
+            <h1 class="text-2xl font-bold">Caregiver Community</h1><br></br>
+            <p class="text-sm">You aren’t meant to do this alone. Join a specialized support group
+             to find connection, shared wisdom, and emotional support.</p>
         </div>
     )
 }
