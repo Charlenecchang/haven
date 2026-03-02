@@ -6,8 +6,8 @@ export default function Dashboard() {
 
     return(
         <div style={{padding:20}}>
-            <h1 class="text-2xl font-bold">Welcome to Haven</h1><br></br>
-            <p class="text-sm">Finding resources for your placement child? We&apos;re here to help.</p><br></br>
+            <h1 className="text-2xl font-bold">Welcome to Haven</h1><br></br>
+            <p className="text-sm">Finding resources for your placement child? We&apos;re here to help.</p><br></br>
             <section>
                 <h2>Child Profile & Personalization</h2>
                 
