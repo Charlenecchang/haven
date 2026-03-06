@@ -70,7 +70,7 @@ export default function Dashboard() {
                 <div className="max-w-6xl mx-auto flex items-start justify-between flex-wrap">
                     <div>
                         <h1 className="text-white text-2xl font-bold mb-1.5">Child Profile & Personalization</h1>
-                        <p className="text-sm text-[#9ab89a]">Finding resources for your placement child? We&apos;re here to help.</p>
+                        <p className="text-sm text-[#9ab89a] font-thin">Finding resources for your placement child? We&apos;re here to help.</p>
                     </div>
                     {/* Select Child Profile */}
                     <div className="flex items-center gap-3">
