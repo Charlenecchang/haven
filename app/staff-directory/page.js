@@ -7,6 +7,14 @@ export default function StaffDirectory() {
             <h1 className="text-2xl font-bold">Welcome Home, Caregiver!</h1><br></br>
             <p className="text-sm">Everything you need to connect with our dedicated staff and 
             support network is right here at your fingertips.</p>
+            <br></br>
+            Make a container card for this section with button linking to their locator
+            <p>Looking for in-network providers?</p>
+            <a href="https://findaprovider.coordinatedcarehealth.com/location" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            Search for Providers for your placement child
+            </a>
         </div>
     )
 }
